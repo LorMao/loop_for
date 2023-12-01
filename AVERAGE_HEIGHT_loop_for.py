@@ -16,7 +16,5 @@ for s in student_heights:
   how_many += 1
 print(f"number of students = {how_many}")
 
-
-for total in student_heights:
-  total_average = round(total_student / how_many)
+total_average = round(total_student / how_many)
 print(f"average height = {total_average}")
